@@ -23,3 +23,8 @@ shutil.copytree(source, backup_name)
 
 # Tell the user where the backup was created
 print("Backup created:", backup_name)
+
+# Open backup_log.txt in append mode
+# "a" means add to the end of the file instead of deleting old logs
+with open("/home/joel/backups/backup_log.txt", "a") as log:
+    log.write("Backup created: " + backup_name + "\n")
