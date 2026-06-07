@@ -1,0 +1,7 @@
+=== Network Scan Results ===
+192.168.0.1 is online
+192.168.0.33 is online
+192.168.0.40 is online
+192.168.0.42 is online
+
+Devices found: 4
